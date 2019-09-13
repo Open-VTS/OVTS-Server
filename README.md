@@ -41,4 +41,4 @@ OVTS-Server is the Server (AKA Center) application of [OVTS](https://github.com/
 
 ## Credits
 
-* Masoud Rahimi: [masoudrahimi.com](masoudrahimi.com)
+* Masoud Rahimi: [masoudrahimi.com](http://masoudrahimi.com)
