@@ -6,7 +6,7 @@
 
 This project is open source and is independent on **ANY ONLINE SERVICES**.
 
-There are four parts for the projects in separate repositories:
+The project consists of four separate repositories:
 
 * [OVTS-Device](https://github.com/Open-VTS/OVTS-Device)
 * [OVTS-Server](https://github.com/Open-VTS/OVTS-Server)
