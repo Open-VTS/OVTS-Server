@@ -2,6 +2,9 @@
 
 ![OVTS](./images/banner.png)
 
+[![Build Status](https://travis-ci.org/Open-VTS/OVTS-Server.svg?branch=master)](https://travis-ci.org/Open-VTS/OVTS-Server)
+[![Coverage Status](https://coveralls.io/repos/github/Open-VTS/OVTS-Server/badge.svg?branch=master)](https://coveralls.io/github/Open-VTS/OVTS-Server?branch=master)
+
 ## OVTS Overview
 
 [OVTS](https://github.com/Open-VTS) is an Open-source Vehicle Tracking System project based on GPS. It can track the device based on GPS data and send information to the main server (AKA Center). It can be mounted on a car or any other vehicles. The communication is over on GPRS and SMS. The device has other features like output relay, input voltage sensor, IMU sensor, etc. This project covers **Device-side**, **Server-side** and a **User Panel**.
@@ -33,6 +36,17 @@ OVTS-Server is the Server (AKA Center) application of [OVTS](https://github.com/
 * Separate Django Models for each method.
 * Communicate with user panel app (in progress).
 * Add SMS center app to receive Device SMS data.
+
+## Usage
+
+Clone the project and run below commands to start the server:
+
+```shell
+pip install -r requirements.txt
+cd OVTS-Server
+python manage.py migrate
+python manage.py runserver
+```
 
 ## TODO
 
