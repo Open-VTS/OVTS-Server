@@ -1,6 +1,8 @@
-# OVTS Overview
+# Open Vehicle Tracking System
 
-![OVTS](./screenshots/banner.png)
+![OVTS](./images/banner.png)
+
+## OVTS Overview
 
 [OVTS](https://github.com/Open-VTS) is an Open-source Vehicle Tracking System project based on GPS. It can track the device based on GPS data and send information to the main server (AKA Center). It can be mounted on a car or any other vehicles. The communication is over on GPRS and SMS. The device has other features like output relay, input voltage sensor, IMU sensor, etc. This project covers **Device-side**, **Server-side** and a **User Panel**.
 

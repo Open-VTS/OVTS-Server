@@ -3,3 +3,4 @@ django-rest-framework
 django-ipware
 protobuf
 protobuf3-to-dict
+coveralls
